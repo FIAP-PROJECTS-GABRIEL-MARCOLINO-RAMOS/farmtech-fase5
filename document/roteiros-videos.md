@@ -1,5 +1,15 @@
 # Roteiros de apresentação
 
+Textos completos para narração:
+
+- [Vídeo 1 — Machine Learning](narracao-video1.txt).
+- [Vídeo 2 — Computação em nuvem](narracao-video2.txt).
+
+Gravar um áudio para cada vídeo. Ler somente os parágrafos, sem os títulos dos blocos,
+e deixar três segundos de silêncio entre eles. Gravar em ambiente silencioso,
+sem música, com o microfone próximo e sem estourar o volume. MP3, M4A ou WAV são aceitos.
+Manter cada áudio em até 4min40s para permitir ajustes e permanecer abaixo do limite de 5 minutos.
+
 Gravar dois vídeos separados, cada um com até 5 minutos, usando tela e sua própria
 explicação. Os roteiros orientam a demonstração; ensaie para entender e explicar os
 resultados. Publicar no YouTube como **não listado** e testar os links sem estar logado.

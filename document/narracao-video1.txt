@@ -1,0 +1,25 @@
+VÍDEO 1 — MACHINE LEARNING
+Leia somente os parágrafos. Não leia os títulos dos blocos.
+Faça uma pausa de 3 segundos entre os blocos.
+Duração estimada: entre 4 e 4 minutos e meio, em ritmo tranquilo.
+
+[BLOCO 1 — APRESENTAÇÃO]
+Olá, eu sou Gabriel Marcolino Ramos, RM 565717. Neste vídeo, apresento a entrega de Machine Learning da FarmTech Solutions, na fase cinco. O objetivo é prever o rendimento de culturas agrícolas a partir das condições climáticas e investigar padrões de produtividade. O notebook, a base e as instruções de execução estão neste repositório.
+
+[BLOCO 2 — BASE E SEPARAÇÃO DOS DADOS]
+A base tem cento e cinquenta e seis registros, distribuídos igualmente entre cacau, dendê, arroz e borracha. As entradas são a cultura, a precipitação, as umidades específica e relativa e a temperatura. O alvo é o rendimento. Existem apenas trinta e nove combinações climáticas, repetidas nas quatro culturas. Por isso, a separação foi feita por cenário: condições idênticas ficam inteiras no treino ou no teste. Foram reservados oito cenários para o teste final.
+
+[BLOCO 3 — ANÁLISE EXPLORATÓRIA]
+Na análise exploratória, conferi dados ausentes, duplicatas, distribuições e correlações. Não há valores ausentes nem linhas completamente duplicadas. O gráfico mostra uma diferença grande de rendimento entre as culturas, especialmente no dendê. Por isso, além dos modelos, usei uma referência que prevê a média de cada cultura. Assim, consigo avaliar se incluir o clima melhora a previsão. Os valores foram mantidos na escala original, pois as unidades precisam ser esclarecidas antes de interpretar os resultados em toneladas por hectare.
+
+[BLOCO 4 — CINCO MODELOS]
+Comparei cinco algoritmos: regressão linear, árvore de decisão, Random Forest, KNN e SVR. A cultura foi codificada e as variáveis numéricas foram padronizadas. Essas transformações são ajustadas dentro das partições de treinamento para evitar vazamento de dados. A comparação usa validação cruzada com cinco divisões, mantendo os grupos climáticos separados. As métricas são MAE, RMSE e R ao quadrado. A escolha foi feita pelo menor RMSE médio de validação, porque essa métrica penaliza mais os erros grandes. O teste reservado só foi utilizado depois da escolha.
+
+[BLOCO 5 — RESULTADOS]
+A Random Forest foi selecionada. No teste, seu RMSE foi de quatro mil setecentos e trinta vírgula quarenta e nove, e o MAE ficou em aproximadamente três mil e trezentos. O RMSE foi doze vírgula oito por cento menor que o da referência por cultura. O R ao quadrado global ficou próximo de zero vírgula novecentos e noventa e cinco. Mas isso não representa um percentual de acerto. As métricas por cultura são mais limitadas, e o cacau teve R ao quadrado negativo. A diferença de escala entre culturas ajuda a explicar o resultado global elevado.
+
+[BLOCO 6 — CLUSTERS E OUTLIERS]
+Na parte não supervisionada, usei K-Means sobre as quatro variáveis climáticas dos cenários únicos. A silhueta selecionou três clusters, com valor aproximado de zero vírgula quatro. Comparei a produtividade relativa à mediana de cada cultura. Os grupos apresentam bastante sobreposição, então essa relação é apenas descritiva. Para os outliers, o critério IQR não identificou rendimentos discrepantes dentro das culturas. O Isolation Forest sinalizou treze cenários climáticos pelo seu limiar automático. Esses pontos precisam de investigação; nenhum foi excluído da modelagem.
+
+[BLOCO 7 — INFERÊNCIA E CONCLUSÃO]
+Nesta célula, uma linha do conjunto de teste é usada para demonstrar a inferência. O modelo recebe a cultura e as quatro condições climáticas e retorna nove mil quatrocentos e trinta e nove vírgula noventa e nove, na unidade original da base. Para uso real, ainda seria necessário confirmar as unidades e validar com novas safras. A amostra pequena e a ausência de informações sobre solo, manejo, data e local limitam as conclusões. O notebook reúne o código executado, os resultados e essas limitações.

@@ -1,0 +1,25 @@
+VÍDEO 2 — COMPUTAÇÃO EM NUVEM
+Leia somente os parágrafos. Não leia os títulos dos blocos.
+Faça uma pausa de 3 segundos entre os blocos.
+Duração estimada: entre 3 minutos e meio e 4 minutos e meio.
+
+[BLOCO 1 — APRESENTAÇÃO]
+Olá, eu sou Gabriel Marcolino Ramos, RM 565717. Nesta segunda entrega, comparei o custo de uma máquina Linux na AWS para hospedar uma API que receberia dados de sensores e executaria o modelo de Machine Learning. A comparação considera as regiões de São Paulo e do Norte da Virgínia, mantendo as mesmas configurações.
+
+[BLOCO 2 — CONFIGURAÇÃO]
+A máquina escolhida foi a t4g.micro, com duas CPUs virtuais, um gibibyte de memória e rede de até cinco gigabits por segundo. Ela utiliza arquitetura ARM. Na calculadora, configurei uma instância compartilhada, sistema Linux e contratação sob demanda, com cem por cento de utilização. Isso corresponde a setecentas e trinta horas por mês. Não foram aplicados descontos de reservas, Savings Plans ou créditos promocionais.
+
+[BLOCO 3 — ARMAZENAMENTO]
+Para atender à indicação de HD no enunciado, selecionei cinquenta gigabytes de EBS magnético, da geração anterior. As opções de HDD chamadas st1 e sc1 exigem volumes maiores e não servem como disco de inicialização. Por isso, elas não atendem a essa configuração. Em uma aplicação real, um SSD gp3 também poderia ser avaliado, mas isso exigiria uma nova cotação e uma alteração explícita da escolha de armazenamento.
+
+[BLOCO 4 — NORTE DA VIRGÍNIA]
+No Norte da Virgínia, a máquina custa zero vírgula zero zero oito quatro dólar por hora. Multiplicando pelas setecentas e trinta horas, o valor mensal de computação é de aproximadamente seis dólares e treze centavos. O disco custa cinco centavos de dólar por gigabyte ao mês, somando dois dólares e cinquenta centavos. O subtotal arredondado é de oito dólares e sessenta e três centavos por mês.
+
+[BLOCO 5 — SÃO PAULO E COMPARAÇÃO]
+Em São Paulo, a computação fica em aproximadamente nove dólares e setenta e oito centavos por mês. O disco custa doze centavos de dólar por gigabyte, totalizando seis dólares. O subtotal mensal é de quinze dólares e setenta e oito centavos. Portanto, a Virgínia é mais barata nesta cotação, com economia de sete dólares e quinze centavos por mês. A calculadora mostra a soma das duas linhas, mas elas representam alternativas. A implantação usaria apenas uma das regiões.
+
+[BLOCO 6 — ESCOLHA DA REGIÃO]
+Diante da restrição do enunciado para armazenamento no exterior, eu escolheria São Paulo. Os dados dos sensores, os backups e os logs que contêm esses dados precisam permanecer no Brasil. Considerando a fazenda no Brasil, a proximidade também pode favorecer a latência. Porém, isso precisaria ser medido a partir da conexão real da propriedade. A capacidade de rede de até cinco gigabits não representa a velocidade da internet rural nem garante um tempo de resposta específico.
+
+[BLOCO 7 — LIMITAÇÕES E CONCLUSÃO]
+Essa estimativa considera computação e capacidade de disco. Não inclui impostos, tráfego, endereço IPv4 público, backups e operações de entrada e saída cobradas separadamente no disco magnético. Além disso, cem por cento de utilização significa que a máquina fica ligada o mês inteiro; o uso de CPU acima dos créditos pode gerar cobranças adicionais. Nenhuma infraestrutura foi implantada. Antes de colocar a API em produção, seria necessário validar a compatibilidade com ARM, o consumo de memória e o desempenho. A cotação salva, os cálculos e a justificativa estão no README.
