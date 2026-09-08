@@ -5,6 +5,10 @@
   "prazo_horario": null,
   "prazo_confirmado_pelo_usuario": true,
   "entrega_no_portal_confirmada": false,
+  "videos": [
+    {"entrega": 1, "tema": "Machine Learning", "url": "https://www.youtube.com/watch?v=wicCoDJxP6E", "duracao_segundos_youtube": 295, "nao_listado": true, "acesso_verificado": true},
+    {"entrega": 2, "tema": "Comparação de Custos AWS", "url": "https://www.youtube.com/watch?v=gkBPT9cGzhc", "duracao_segundos_youtube": 279, "nao_listado": true, "acesso_verificado": true}
+  ],
   "integrantes": [
     {"nome_completo": "Gabriel Marcolino Ramos", "rm": "RM565717", "email_academico": "rm565717@fiap.com.br"}
   ],

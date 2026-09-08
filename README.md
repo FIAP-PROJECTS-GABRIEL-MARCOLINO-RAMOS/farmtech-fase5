@@ -14,8 +14,8 @@ Atividade proposta em grupo, realizada individualmente por Gabriel Marcolino Ram
 
 **Prazo de entrega:** 08/09/2026 (horário limite do portal não informado).
 
-**Status:** notebook executado e comparação AWS concluída.
-Os dois vídeos de apresentação ainda precisam ser gravados e incluídos no README.
+**Status:** notebook executado, comparação AWS concluída e dois vídeos publicados como não listados.
+O envio do link do repositório no portal da FIAP ainda não foi confirmado.
 
 ## Descrição
 
@@ -40,7 +40,7 @@ Usamos partições por cenário climático para evitar que a mesma combinação 
 apareça no treino e no teste. A unidade do rendimento requer confirmação: os resultados
 são apresentados na escala original do CSV, sem conversão presumida para toneladas.
 
-**Vídeo 1 — até 5 minutos:** pendente de gravação e publicação como **não listado** no YouTube.
+**[Vídeo 1 — Machine Learning (4min55s)](https://www.youtube.com/watch?v=wicCoDJxP6E)** — não listado no YouTube.
 [Roteiro com tempos e telas](document/roteiros-videos.md#vídeo-1--machine-learning).
 
 ## Como executar
@@ -184,7 +184,7 @@ recursos. Uma única máquina não oferece alta disponibilidade; 1 GiB deve ser 
 com teste de memória, concorrência e latência. O treinamento deve ocorrer separadamente
 da API. O fluxo precisará confirmar as unidades dos sensores antes de fazer inferência.
 
-**Vídeo 2 — até 5 minutos:** pendente de gravação e publicação como **não listado** no YouTube.
+**[Vídeo 2 — Comparação de Custos AWS (4min39s)](https://www.youtube.com/watch?v=gkBPT9cGzhc)** — não listado no YouTube.
 [Roteiro da demonstração AWS](document/roteiros-videos.md#vídeo-2--computação-em-nuvem).
 
 ## Estrutura de pastas
@@ -209,9 +209,10 @@ requirements-lock.txt  Versões completas da execução local
 - [x] RM565717 confirmado e notebook nomeado com o sufixo `pbl_fase4.ipynb`.
 - [x] Identificação confirmada: Gabriel Marcolino Ramos como único integrante.
 - [ ] Revisar pessoalmente os achados e a ressalva das unidades.
-- [ ] Gravar dois vídeos, publicar como não listados e adicionar os links neste README.
+- [x] Dois vídeos publicados como não listados, com menos de 5 minutos e links neste README.
 - [x] Prazo confirmado: 08/09/2026.
-- [ ] Conferir acesso público e enviar o link do repositório no portal antes do horário limite.
+- [x] Acesso público ao repositório e acesso aos dois vídeos pelos links conferidos.
+- [ ] Enviar o link do repositório no portal antes do horário limite e guardar o comprovante.
 - [ ] Após a entrega, não realizar novos commits, conforme o enunciado.
 
 Os desafios “Ir Além” são opcionais e exigem ESP32 real; não fazem parte desta versão.
@@ -220,6 +221,7 @@ Os desafios “Ir Além” são opcionais e exigem ESP32 real; não fazem parte 
 ## Histórico e créditos
 
 - 08/09/2026 — notebook executado, comparação AWS e identificação acadêmica da Fase 5.
+- 08/09/2026 — vídeos de Machine Learning e comparação AWS publicados e vinculados às entregas.
 
 Estrutura adaptada de [agodoi/templateFiapVfinal](https://github.com/agodoi/templateFiapVfinal),
 commit `50e1e2720637b222357a7ebd1919c38a44af7cd2`.

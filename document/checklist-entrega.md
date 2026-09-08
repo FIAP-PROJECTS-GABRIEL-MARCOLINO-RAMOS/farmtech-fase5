@@ -16,7 +16,7 @@
 - [x] Clusterização, tendências e investigação de outliers.
 - [x] Células de código executadas, sem erros.
 - [x] Nome final: `GabrielMarcolinoRamos_rm565717_pbl_fase4.ipynb`.
-- [ ] Vídeo 1 de até 5 min, não listado, com link funcional no README.
+- [x] [Vídeo 1 — Machine Learning](https://www.youtube.com/watch?v=wicCoDJxP6E): 4min55s, não listado, com link funcional no README.
 
 Nome e RM já estão na primeira célula do notebook e no README. O arquivo foi
 renomeado e o link atualizado; as saídas executadas foram preservadas.
@@ -28,7 +28,7 @@ renomeado e o link atualizado; as saídas executadas foram preservadas.
 - [x] Sob demanda, 100%, 730 horas; preços unitários e exclusões documentados.
 - [x] Link público da cotação, exportação, imagens e gráfico no repositório.
 - [x] Justificativa de São Paulo para a restrição de residência no Brasil.
-- [ ] Vídeo 2 de até 5 min, não listado, com link funcional no README.
+- [x] [Vídeo 2 — Comparação de Custos AWS](https://www.youtube.com/watch?v=gkBPT9cGzhc): 4min39s, não listado, com link funcional no README.
 
 ## Antes de submeter
 
@@ -36,7 +36,7 @@ renomeado e o link atualizado; as saídas executadas foram preservadas.
 - [ ] Confirmar acesso público ao repositório, notebook, imagens e vídeos.
 - [ ] Instalar dependências e executar `python scripts/executar_notebook.py`.
 - [ ] Conferir que todas as células de código mostram execução e não contêm erro.
-- [ ] Atualizar o status após incluir os dois vídeos.
+- [x] Atualizar o status após incluir os dois vídeos.
 - [ ] Fazer último commit antes do prazo e anotar o hash entregue.
 - [ ] Submeter a URL do repositório no portal e guardar o comprovante.
 - [ ] Não realizar commits após a entrega, conforme o enunciado.
