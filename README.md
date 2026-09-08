@@ -6,13 +6,16 @@
 
 **Grupo:** FarmTech Solutions
 
-**Integrante:** Gabriel Marcolino Ramos — **RM a informar**
+**Integrante:** Gabriel Marcolino Ramos — **RM565717**
 
-**Tutor(a) e coordenador(a):** a informar, se exigido pela turma.
+**E-mail acadêmico:** rm565717@fiap.com.br
 
-**Status: versão de trabalho.** O notebook está executado e a cotação AWS está documentada.
-Faltam confirmar RM, prazo, integrantes e origem do CSV, além de gravar e incluir os dois vídeos.
-Não considerar este repositório uma entrega final enquanto essas pendências existirem.
+Atividade proposta em grupo, realizada individualmente por Gabriel Marcolino Ramos.
+
+**Prazo de entrega:** 08/09/2026 (horário limite do portal não informado).
+
+**Status:** notebook executado e comparação AWS concluída.
+Os dois vídeos de apresentação ainda precisam ser gravados e incluídos no README.
 
 ## Descrição
 
@@ -27,7 +30,7 @@ Este README concentra as instruções de execução e a entrega de computação 
 
 ## Entrega 1 — Machine Learning
 
-**[Abrir o notebook executado](notebooks/GabrielMarcolinoRamos_rmPENDENTE_pbl_fase4.ipynb)**
+**[Abrir o notebook executado](notebooks/GabrielMarcolinoRamos_rm565717_pbl_fase4.ipynb)**
 
 O notebook inclui auditoria e análise exploratória; regressão linear, árvore de decisão,
 Random Forest, KNN e SVR; avaliação com MAE, RMSE e R²; K-Means com seleção de k;
@@ -66,8 +69,7 @@ credenciais, serviços pagos nem uma conta AWS. As tabelas e figuras são regene
 
 Validação realizada: 13 células de código executadas sem erro; consistência dos pacotes
 verificada com `pip check`; ausência de grupos em comum entre treino/teste e entre folds
-verificada por asserções. A consulta Sonatype não pôde ser concluída por falta de autenticação;
-versões consultadas no PyPI, sem alegação de auditoria de segurança concluída.
+verificada por asserções.
 
 ## Entrega 2 — Computação em nuvem AWS
 
@@ -204,12 +206,12 @@ requirements-lock.txt  Versões completas da execução local
 
 - [x] Relatório executado com cinco algoritmos, clusterização e outliers.
 - [x] Comparação AWS na calculadora, evidências, gráfico e justificativa.
-- [ ] Confirmar RM e renomear o notebook, preservando o sufixo `pbl_fase4.ipynb`.
-- [ ] Confirmar integrantes e identificação acadêmica.
-- [ ] Confirmar que a cópia de `crop_yield.csv` corresponde ao arquivo do portal.
+- [x] RM565717 confirmado e notebook nomeado com o sufixo `pbl_fase4.ipynb`.
+- [x] Identificação confirmada: Gabriel Marcolino Ramos como único integrante.
 - [ ] Revisar pessoalmente os achados e a ressalva das unidades.
 - [ ] Gravar dois vídeos, publicar como não listados e adicionar os links neste README.
-- [ ] Confirmar prazo, conferir acesso público e enviar o link do repositório no portal.
+- [x] Prazo confirmado: 08/09/2026.
+- [ ] Conferir acesso público e enviar o link do repositório no portal antes do horário limite.
 - [ ] Após a entrega, não realizar novos commits, conforme o enunciado.
 
 Os desafios “Ir Além” são opcionais e exigem ESP32 real; não fazem parte desta versão.
@@ -217,7 +219,7 @@ Os desafios “Ir Além” são opcionais e exigem ESP32 real; não fazem parte 
 
 ## Histórico e créditos
 
-- 08/09/2026 — versão de trabalho da Fase 5, com notebook executado e comparação AWS.
+- 08/09/2026 — notebook executado, comparação AWS e identificação acadêmica da Fase 5.
 
 Estrutura adaptada de [agodoi/templateFiapVfinal](https://github.com/agodoi/templateFiapVfinal),
 commit `50e1e2720637b222357a7ebd1919c38a44af7cd2`.

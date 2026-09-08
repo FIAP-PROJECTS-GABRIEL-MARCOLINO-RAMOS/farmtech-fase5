@@ -1,8 +1,8 @@
 # Base de dados
 
-`crop_yield.csv`: cópia local do arquivo de mesmo nome encontrado em Downloads,
-compatível com o esquema informado no enunciado. Confirmar sua correspondência com
-o anexo oficial do portal FIAP antes da entrega.
+`crop_yield.csv` é a base analisada neste projeto. Contém as seis variáveis
+descritas no enunciado: cultura, precipitação, umidade específica, umidade relativa,
+temperatura e rendimento.
 
 - 156 registros e 6 colunas; quatro culturas com 39 registros cada.
 - 39 combinações climáticas únicas; nenhuma linha totalmente duplicada.

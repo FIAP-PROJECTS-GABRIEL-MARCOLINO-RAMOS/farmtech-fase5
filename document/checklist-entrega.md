@@ -1,11 +1,11 @@
 # Checklist — Fase 5
 
-## Dados que dependem do integrante
+## Identificação e prazo
 
-- [ ] Informar RM; confirmar nome completo, grupo e demais integrantes (máximo cinco).
-- [ ] Informar a data e hora limite do portal e se já houve entrega.
-- [ ] Confirmar origem do CSV local e esclarecer as unidades com o material da turma.
-- [ ] Informar tutor/coordenador caso a turma exija esses campos.
+- [x] Gabriel Marcolino Ramos — RM565717 — rm565717@fiap.com.br; único integrante.
+- [x] Data limite confirmada: 08/09/2026.
+- [ ] Conferir horário limite no portal e confirmar o envio; ainda não registrado como entregue.
+- [ ] Conferir as unidades de rendimento e precipitação com o material da turma.
 
 ## Entrega 1
 
@@ -15,11 +15,11 @@
 - [x] Referências simples e métricas separadas por cultura.
 - [x] Clusterização, tendências e investigação de outliers.
 - [x] Células de código executadas, sem erros.
-- [ ] Nome final: `GabrielMarcolinoRamos_rmSEURM_pbl_fase4.ipynb`.
+- [x] Nome final: `GabrielMarcolinoRamos_rm565717_pbl_fase4.ipynb`.
 - [ ] Vídeo 1 de até 5 min, não listado, com link funcional no README.
 
-O RM pendente aparece no nome do arquivo e na primeira célula. Após renomear,
-atualizar o link do README. O script de execução localiza o sufixo e não exige alteração.
+Nome e RM já estão na primeira célula do notebook e no README. O arquivo foi
+renomeado e o link atualizado; as saídas executadas foram preservadas.
 
 ## Entrega 2
 
@@ -36,7 +36,7 @@ atualizar o link do README. O script de execução localiza o sufixo e não exig
 - [ ] Confirmar acesso público ao repositório, notebook, imagens e vídeos.
 - [ ] Instalar dependências e executar `python scripts/executar_notebook.py`.
 - [ ] Conferir que todas as células de código mostram execução e não contêm erro.
-- [ ] Remover o aviso de versão de trabalho somente após resolver as pendências.
+- [ ] Atualizar o status após incluir os dois vídeos.
 - [ ] Fazer último commit antes do prazo e anotar o hash entregue.
 - [ ] Submeter a URL do repositório no portal e guardar o comprovante.
 - [ ] Não realizar commits após a entrega, conforme o enunciado.

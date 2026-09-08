@@ -1,0 +1,14 @@
+{
+  "projeto": "FarmTech Solutions — Fase 5",
+  "prazo_data": "2026-09-08",
+  "prazo_fuso": "America/Sao_Paulo",
+  "prazo_horario": null,
+  "prazo_confirmado_pelo_usuario": true,
+  "entrega_no_portal_confirmada": false,
+  "integrantes": [
+    {"nome_completo": "Gabriel Marcolino Ramos", "rm": "RM565717", "email_academico": "rm565717@fiap.com.br"}
+  ],
+  "participacao": "Atividade em grupo realizada individualmente",
+  "perfil_referencia": "https://github.com/FIAP-PROJECTS-GABRIEL-MARCOLINO-RAMOS/perfil-academico",
+  "regra_commits": "Não realizar commits após a entrega, conforme o enunciado."
+}
