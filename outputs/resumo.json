@@ -1,0 +1,25 @@
+{
+  "dataset_sha256": "07b3335f497e08e705b5835ee334426ac16cb24732c1bfaa994254d39f771b1b",
+  "registros": 156,
+  "cenarios_climaticos": 39,
+  "linhas_treino": 124,
+  "linhas_teste": 32,
+  "modelo_selecionado": "Random Forest",
+  "metricas_teste": {
+    "MAE": 3300.746249999994,
+    "RMSE": 4730.491275684091,
+    "R2": 0.9953533348136043
+  },
+  "rmse_referencia_cultura": 5427.702621532317,
+  "melhoria_rmse_percentual": 12.845422722356018,
+  "k": 3,
+  "silhueta": 0.3987231285320193,
+  "outliers_iqr": 0,
+  "cenarios_outliers_isolation_forest": 13,
+  "versoes": {
+    "pandas": "3.0.5",
+    "numpy": "2.5.3",
+    "scikit-learn": "1.9.0",
+    "matplotlib": "3.11.1"
+  }
+}

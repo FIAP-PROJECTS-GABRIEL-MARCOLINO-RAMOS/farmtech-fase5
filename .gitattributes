@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Preserva os bytes das evidências para manter os hashes de proveniência.
+/data/crop_yield.csv -text
+/document/other/aws-exportacao-original.json -text

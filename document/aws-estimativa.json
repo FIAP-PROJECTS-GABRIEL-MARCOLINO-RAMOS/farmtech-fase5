@@ -1,0 +1,65 @@
+{
+  "Nome": "My Estimate",
+  "Custo total": {
+    "mensal": "24.41",
+    "Pagamento adiantado": "0.00",
+    "12 meses": "292.92"
+  },
+  "Metadados": {
+    "Moeda": "USD",
+    "Localidade": "pt_BR",
+    "Criado em": "08/09/2026",
+    "Isenção de responsabilidade legal": "A Calculadora de Preços da AWS fornece apenas uma estimativa de suas taxas da AWS e não inclui nenhuma taxa aplicável. Suas taxas reais dependem de vários fatores, inclusive de seu uso real dos serviços da AWS.",
+    "Compartilhar URL": "https://calculator.aws/#/estimate?id=8f1eabe3efec6d6e5fac82ff814894e54144824d"
+  },
+  "Grupos": {
+    "Serviços": [
+      {
+        "Nome do serviço": "Amazon EC2 ",
+        "Descrição": "FarmTech — Norte da Virgínia — Linux On-Demand 100%",
+        "Região": "Leste dos EUA (N. da Virgínia)",
+        "Status": "",
+        "Custo do serviço": {
+          "mensal": "8.63",
+          "Pagamento adiantado": "0.00",
+          "12 meses": "103.58"
+        },
+        "Propriedades": {
+          "Locação": "Instâncias compartilhadas",
+          "Sistema operacional": "Linux",
+          "Carga de trabalho": "Consistent, Número de instâncias: 1",
+          "Instância do EC2 avançada": "t4g.micro",
+          "Pricing strategy": "On-Demand Utilization: 100 %Utilized/Month",
+          "Habilitar monitoramento": "desabilitada",
+          "EBS Quantidade de armazenamento": "50 GB",
+          "DT Entrada: Not selected": "0 TB por mês",
+          "DT Saída: Not selected": "0 TB por mês",
+          "DT Intrarregião:": "0 TB por mês"
+        }
+      },
+      {
+        "Nome do serviço": "Amazon EC2 ",
+        "Descrição": "FarmTech — São Paulo — Linux On-Demand 100%",
+        "Região": "América do Sul (São Paulo)",
+        "Status": "",
+        "Custo do serviço": {
+          "mensal": "15.78",
+          "Pagamento adiantado": "0.00",
+          "12 meses": "189.38"
+        },
+        "Propriedades": {
+          "Locação": "Instâncias compartilhadas",
+          "Sistema operacional": "Linux",
+          "Carga de trabalho": "Consistent, Número de instâncias: 1",
+          "Instância do EC2 avançada": "t4g.micro",
+          "Pricing strategy": "On-Demand Utilization: 100 %Utilized/Month",
+          "Habilitar monitoramento": "desabilitada",
+          "EBS Quantidade de armazenamento": "50 GB",
+          "DT Entrada: Not selected": "0 TB por mês",
+          "DT Saída: Not selected": "0 TB por mês",
+          "DT Intrarregião:": "0 TB por mês"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "data_consulta": "2026-09-08",
+  "fonte": "AWS Pricing Calculator, leitura da interface e exportação original",
+  "url": "https://calculator.aws/#/estimate?id=8f1eabe3efec6d6e5fac82ff814894e54144824d",
+  "moeda": "USD",
+  "instancia": "t4g.micro",
+  "sistema_operacional": "Linux",
+  "arquitetura": "arm64",
+  "vcpus": 2,
+  "memoria_gib": 1,
+  "rede": "Até 5 Gigabit, burst",
+  "instancias_por_cenario": 1,
+  "horas_mes": 730,
+  "contratacao": "On-Demand",
+  "utilizacao_percentual": 100,
+  "armazenamento_tipo": "Magnetic (standard), geração anterior",
+  "armazenamento_gb_calculadora": 50,
+  "escopo": "Subtotal EC2 + capacidade EBS; não representa a fatura completa de uma API",
+  "regioes": [
+    {"nome":"Norte da Virgínia", "codigo":"us-east-1", "ec2_usd_hora":0.0084, "ebs_usd_gb_mes":0.05},
+    {"nome":"São Paulo", "codigo":"sa-east-1", "ec2_usd_hora":0.0134, "ebs_usd_gb_mes":0.12}
+  ],
+  "exclusoes": ["Impostos e câmbio", "I/O cobrado separadamente no disco magnético", "IPv4 público", "Tráfego e transferência entre regiões", "Snapshots e backups", "Monitoramento detalhado", "Créditos excedentes de CPU em Unlimited", "Outros serviços de produção"],
+  "observacao": "Os cenários são alternativas. A soma da calculadora não é o custo da solução escolhida. GB reproduz o rótulo da interface da AWS."
+}

@@ -2,3 +2,11 @@
 *.tsv
 *.xls
 *.xlsx
+!data/crop_yield.csv
+!outputs/*.csv
+!document/*.csv
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.joblib

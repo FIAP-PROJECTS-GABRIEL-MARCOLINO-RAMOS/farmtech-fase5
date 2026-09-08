@@ -1,0 +1,6 @@
+modelo,MAE_CV,RMSE_CV,RMSE_desvio_CV,R2_CV,parametros
+Random Forest,4473.155541666662,7916.817511658291,1818.3008784168055,0.9867221966385772,"{""model__regressor__max_depth"": null, ""model__regressor__min_samples_leaf"": 1}"
+Regressão linear,5425.59166365275,8594.691620172482,1209.0920136181762,0.9846481394277674,{}
+Árvore de decisão,5158.547110597734,8891.392587171613,1499.0568292139667,0.9835756634950054,"{""model__regressor__max_depth"": 3, ""model__regressor__min_samples_leaf"": 2}"
+SVR (RBF),11126.64004468067,15917.137624662495,8081.156907623675,0.938185111574325,"{""model__regressor__C"": 10, ""model__regressor__epsilon"": 0.05}"
+KNN,10845.224832809075,21255.573030129,8820.182078758446,0.8944615566154273,"{""model__regressor__n_neighbors"": 3, ""model__regressor__weights"": ""distance""}"
